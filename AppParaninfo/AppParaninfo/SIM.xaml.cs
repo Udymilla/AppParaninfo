@@ -15,6 +15,7 @@ namespace AppParaninfo
         public SIM()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }
